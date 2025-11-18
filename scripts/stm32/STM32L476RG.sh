@@ -3,8 +3,8 @@
 #  This file is part of the micropython-builder project,
 #  https://github.com/v923z/micropython-builder
 #  The MIT License (MIT)
-#  Copyright (c) 2024 Zoltán Vörös
+#  Copyright (c) 2022 Zoltán Vörös
 
-source ./scripts/mimxrt/mimxrt.sh
+source .github/scripts/stm32/stm32.sh
 
-build_mimxrt "TEENSY41"
+build_stm32 "NUCLEO_L476RG"
