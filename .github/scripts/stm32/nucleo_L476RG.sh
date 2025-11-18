@@ -7,5 +7,4 @@
 
 source .github/scripts/stm32/stm32.sh
 
-build_stm32 "nucleo_L476RG"
-
+build_stm32 "NUCLEO_L476RG"
